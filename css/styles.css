@@ -267,23 +267,29 @@ p {
 
 /* Cards */
 .card {
-    border: 7px;
+    border-radius: 7px;
     box-shadow: 0 0 20px 10px #f3f3f3;
     overflow: hidden;
+    width: 40rem;
 }
 
-.card___header, .card__body {
+.card__header, 
+.card__body {
     padding: 2rem 3rem;
 }
 
-.card--primary .card___header {
+.card--primary .card__header {
     background: var(--color-primary);
     color: #fff;
 }
 
-.card--secondary .card___header {
+.card--secondary .card__header {
     background: var(--color-secondary);
     color: #fff;
+}
+
+.card--secondary .badge--secondary {
+    background: #02cdf1;
 }
 
  /* Plans */
@@ -320,7 +326,7 @@ p {
     position: relative;
 }
 
-.plan--popular .card___header::before {
+.plan--popular .card__header::before {
     content: url(../Images/popular.svg);
     width: 40px;
     display: inline-block;
@@ -344,10 +350,22 @@ p {
     }
 }
 
+/* Media */
+.media {
+    display: flex;
+}
 
+.media__title {
+    margin-top: 0;
+}
 
+.media__body {
+    margin: 0 2rem;
+}
 
-
+.media__image {
+    margin-top: 1rem;
+}
 
 
 
