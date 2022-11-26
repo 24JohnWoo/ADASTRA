@@ -601,6 +601,45 @@
   margin: 0 auto;
 }
 
+/* Navigation Bar */
+.nav {
+  background: #000;
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+}
+
+.nav_list {
+  width: 100%;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
