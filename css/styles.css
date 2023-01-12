@@ -70,7 +70,11 @@
       font-size: 2.4rem;
     }
   }
-  
+
+  /*Picture*/
+.first-pic {
+  margin: 20px 10px;
+}
   /* Links */
   a {
     text-decoration: none;
@@ -122,6 +126,13 @@
     font-size: 1.6rem;
     padding: 0.5rem 1.5rem;
   }
+
+  .block-domain > li > a {
+    text-decoration: none;
+    float: left;
+    max-width: 1140px;
+    margin: 2rem 2rem;
+}
   
   @media screen and (min-width: 1024px) {
     .badge {
@@ -131,6 +142,10 @@
     .badge--small {
       font-size: 1.2rem;
     }
+
+    .block-domain > li > a  {
+      margin: 2rem 12rem;
+  }
   }
   /* Lists */
   .list {
@@ -251,6 +266,9 @@
     color: #fff;
   }
 
+  .btn--outline:hover > a {
+    color: #fff;
+  }
   .btn--stretched {
     padding-left: 6rem;
     padding-right: 6rem;
@@ -285,6 +303,7 @@
     border: 1px solid var(--color-border);
     border-radius: var(--border-radius);
     display: flex;
+    margin: 1.5rem auto 1.5rem auto;
   }
   
   .input-group .input {
@@ -294,7 +313,14 @@
   }
   
   .input-group .btn {
-    margin: 4px;
+    border-radius: 40px;
+    padding: 1.5rem 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center; 
+    text-transform: uppercase;
+    vertical-align: middle;
+    border: 0;
   }
   
   @media screen and (min-width: 1024px) {
@@ -313,7 +339,7 @@
   .card__body {
     padding: 2rem 3rem;
   }
-  
+
   .card--primary .card__header {
     background: var(--color-primary);
     color: #fff;
@@ -334,7 +360,7 @@
   /* Plans */
   .plan__name {
     color: #fff;
-    margin: 0;
+    margin-bottom: 2rem;
     font-weight: 500;
     font-size: 2.4rem;
   }
@@ -363,6 +389,7 @@
   
   .plan--popular {
     transform: scale(1.1);
+  
   }
   .plan--popular .card__header {
     position: relative;
@@ -384,9 +411,6 @@
      transform: scale(1.05);
   }
 
-  .plan--popular:hover {
-    transform: scale(1.05);
- }
   @media screen and (min-width: 1024px) {
     .plan__name {
       font-size: 1.4rem;
@@ -746,7 +770,7 @@
 
 .block-plans .card {
   max-width: 500px;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 .feature {
   gap: 4rem 2rem;

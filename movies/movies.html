@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav collapsible collapsible--expanded">
+        <a class="nav__brand" href="/"
+          ><img src="../images/logo.svg" alt=""
+        /></a>
+        <svg class="icon icon--white nav__toggler">
+          <use xlink:href="../images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="../index.html">Homepage</a></li>
+          <li class="nav__item"><a href="../movies/movies.html">Movies</a></li>
+          <li class="nav__item"><a href="../music/music.html">Music</a></li>
+          <li class="nav__item"><a href="../Poetry/Poetry.html">Poetry</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="block container block-domain">
+      <header class="block__header">
+        <h2>Must Watch Movies</h2>
+        <p>
+          From Dark to Mystery, Crime and Action. Great movies from the 90s to
+          date
+        </p>
+      </header>
+      <div class="input-group">
+        <input
+          type="text"
+          class="input"
+          placeholder="Enter name name of movie..."
+        />
+        <button class="btn btn--accent">
+          <svg class="icon icon--white">
+            <use xlink:href="../images/sprite.svg#search"></use></svg
+          >Search
+        </button>
+      </div>
+      <ul class="list block-domain">
+        <li>
+          <a href="https://movieweb.com/">
+            <span class="badge badge--secondary">MovieWeb</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.imdb.com/search/">
+            <span class="badge badge--primary">Imdb</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.rottentomatoes.com/">
+            <span class="badge badge--secondary">Rottentomatoes</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="block container">
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <h3 class="feature__heading">The Pianist(History, War, Drama)</h3>
+          <p>
+            I watched this movie after briefly reading The Gulag Archipelago by
+            Alexander Solzhenitsyn. The horrors were more vivid in my psych. The
+            trials and torment of the Jews in Poland during the WWII.<br />
+            Directed By Roman Polanski.
+          </p>
+          <a
+            href="https://www.imdb.com/title/tt0253474/?ref_=nv_sr_srsg_0"
+            class="link-arrow"
+            >Learn More</a
+          >
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="images/Pianist@1x.webp 1x, images/Pianist@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/Pianist@1x.jpg 1x, images/Pianist@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/Pianist@2x.jpg" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <h3 class="feature__heading">Schindlers-list(War, History, Drama)</h3>
+          <p>
+            Just like the Pianist, this movie is about the Jews in Poland. This
+            is a sad movie about a german industrialist and his relationship
+            with his jew workers.Its not for the faint of heart.<br />
+            Directed by Steven Spielberg.
+          </p>
+          <a
+            href="https://www.imdb.com/title/tt0108052/?ref_=nv_sr_srsg_0"
+            class="link-arrow"
+            >Learn More</a
+          >
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="
+              images/Schindlers-list@1x.webp 1x,
+              images/Schindlers-list@2x.webp 2x
+            "
+          />
+          <source
+            type="image/jpg"
+            srcset="
+              images/Schindlers-list@1x.jpg 1x,
+              images/Schindlers-list@2x.jpg 2x
+            "
+          />
+          <img
+            class="feature__image"
+            src="images/Schindlers-list@2x.jpg"
+            alt=""
+          />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <h3 class="feature__heading">Her(Romance/Sci-fi)</h3>
+          <p>
+            Her is a movie about the lonely Theodore (played by the infamous
+            Joaquin Phoenix) who develops an unusual relationship with an
+            AI(Scarlett Johansson). This is a movie for the loners<br />
+            Directed by Spike Jonze
+          </p>
+          <a
+            href="https://www.imdb.com/title/tt1798709/?ref_=nv_sr_srsg_0"
+            class="link-arrow"
+            >Learn More</a
+          >
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="../images/Her@1x.webp 1x, ../images/Her@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="../images/Her@1x.jpg 1x, ../images/Her@2x.jpg 2x"
+          />
+          <img class="feature__image" src="../images/Her@2x.jpg" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <h3 class="feature__heading">
+            Little Miss Sunshine(Comedy,Drama,Adventure)
+          </h3>
+          <p>
+            Little miss sunshine is both heartbreaking and funny. It tells the
+            complicated lifes of Olive and family. Its a life changing movie and
+            a must watch.<br />
+            Directed by Valerie Faris and Jonathan Dayton
+          </p>
+          <a
+            href="https://www.imdb.com/title/tt0449059/?ref_=nv_sr_srsg_0"
+            class="link-arrow"
+            >Learn More</a
+          >
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="
+              ../images/LittleMissSunshine@1x.webp 1x,
+              ../images/LittleMissSunshine@2x.webp 2x
+            "
+          />
+          <source
+            type="image/jpg"
+            srcset="
+              ../images/LittleMissSunshine@1x.jpg 1x,
+              ../images/LittleMissSunshine@2x.jpg 2x
+            "
+          />
+          <img
+            class="feature__image"
+            src="../images/LittleMissSunshine@2x.jpg"
+            alt=""
+          />
+        </picture>
+      </article>
+    </section>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
