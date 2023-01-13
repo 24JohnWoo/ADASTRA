@@ -685,7 +685,7 @@ a {
 }
 
 @media screen and (min-width:430px) {
-  .container {height: 400px;}
+  .container {height: fit-content;}
 }
 
 /* Navigation Bar */
